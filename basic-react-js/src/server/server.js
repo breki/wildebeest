@@ -12,6 +12,7 @@ server.get('/', (req, res) => {
   res.send(`
     <html>
       <head>
+        <link rel="stylesheet" href="site.css">
         <title>Sample React App</title>
       </head>
       <body>

@@ -5,8 +5,9 @@
   "main": "index.js",
   "scripts": {
     "test": "jest",
-	"dev-server": "nodemon --exec babel-node src/server/server.js --ignore dist/",
-	"dev-bundle": "webpack -wd"
+    "dev-server": "nodemon --exec babel-node src/server/server.js --ignore dist/",
+    "dev-bundle": "webpack -wd",
+    "dev-run": "nodemon --exec babel-node src/server/server.js --ignore dist/ && webpack -wd"
   },
   "author": "",
   "license": "ISC",
