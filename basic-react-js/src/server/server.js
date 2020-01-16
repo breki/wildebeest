@@ -13,7 +13,7 @@ server.get('/', (req, res) => {
     <html>
       <head>
         <link rel="stylesheet" href="site.css">
-        <title>Sample React App</title>
+        <title>Wildebeer</title>
       </head>
       <body>
         <div id="mountNode">${initialMarkup}</div>
